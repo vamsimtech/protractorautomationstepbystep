@@ -4,7 +4,7 @@ describe('Calculator',function(){
 		
 		var appURL='https://juliemr.github.io/protractor-demo/';
 		browser.get(appURL);
-		browser.sleep('10000');
+		browser.sleep('1000');
 		element(by.model('first')).sendKeys('4');
 		
 		element.all(by.options('value for (key, value) in operators')).get(1).click();
@@ -12,7 +12,7 @@ describe('Calculator',function(){
 		element(by.model('second')).sendKeys('5');
 		element(by.buttonText('Go!')).click();
 		
-		browser.sleep('10000');
+		browser.sleep('1000');
 	//	browser.manage.window.minimize();
 	
 	browser.quit();
