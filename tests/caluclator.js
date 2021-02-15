@@ -14,7 +14,7 @@ describe('demo calculator tests',function(){
         //element(by.model('first')).sendKeys('2');
         homepage.enterFirstNumber('4');
 
-        browser.sleep(2000);
+        browser.sleep(3000);
        // element(by.model('second')).sendKeys('3');
        homepage.enterSecondNumber("3");
 
